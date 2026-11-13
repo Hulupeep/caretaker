@@ -4,9 +4,9 @@
 
 Caretaker becomes a persistent team of software agents, sensors, tools, people and, eventually, physical robots that look after the machines on your property. You leave an old bicycle, motorbike, boat component, 1950s Kenwood mixer or fridge in its care. Overnight, it inspects, researches, plans, repairs or restores what it is authorised and able to handle, tests the result and leaves a clear account for you in the morning. When it cannot safely or reliably proceed, it stops and asks for the right help.
 
-The ambition is to make “buy another one” a choice, not the default. This is a vision, not a promise that every object can be repaired, that every fault can be detected, or that a repair will always be lower impact. Old machines may need safety, efficiency or compatibility upgrades, not just restoration.
+Imagine never having to buy another car because the one you love can be understood, maintained, repaired and upgraded throughout your life. Now extend that idea to the other machines around you. Our ambition is to make “buy another one” a choice rather than the default—and to keep more useful things out of the scrapheap.
 
-See the [visual timeline](visual-roadmap.md) for illustrative windows and milestones. Stages below describe capability gates, not claims that the technology already works. The T4 and a first physical repair can progress as complementary experiments; neither requires waiting for a general-purpose humanoid.
+See the [visual timeline](visual-roadmap.md) for an evolving map of the journey. The stages below are invitations to build and experiment, with evidence marking the way. The T4 and a first physical repair can progress in parallel.
 
 ## 0. One machine, one care loop — now
 
