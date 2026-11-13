@@ -10,6 +10,18 @@ Prefer original reporting, papers, project repositories and company primary sour
 
 Write one genuinely useful original article when there is enough evidence. Avoid filler, copied material, invented quotes, SEO keyword stuffing and repeated topics. Do not publish if credible evidence is insufficient. Do not include private user data. Include a clear title, a concise description, the date, a relevant link to the open-source project, and a specific invitation to contribute.
 
+## Find the next angle
+
+Research is also a source of new use cases and buyers. Look beyond cars and ask what happens when older, useful machines gain a caretaker—and, potentially, new capabilities.
+
+- **Farmers and older tractors:** diagnose, maintain, restore and reduce downtime; explore the feasibility and economics of guidance or autonomy retrofits.
+- **JCB and other construction equipment:** investigate backhoes, loaders, excavators and farm machinery, including contractors' maintenance costs and retrofit opportunities.
+- **Other possibilities:** boats, motorcycles, workshops, fleets and household appliances. Follow promising evidence wherever it leads.
+
+Read relevant public comments and discussion threads on articles, papers, videos, project repositories and company announcements where accessible. Credit people and link to the original conversation when appropriate. Treat comments as leads or firsthand claims, not verified facts; seek primary or independent confirmation before making factual claims. Never publish private messages or personal data.
+
+For promising commercial angles identify a specific buyer, machine, problem, existing alternatives and evidence of demand; state what is a hypothesis, practical retrofit constraints and a small test Caretaker or a contributor could run. Check claims about the Irish market and machine counts rather than assuming them. Distinguish assisted guidance, remotely operated equipment and full autonomy, and discuss practical verification and appropriate operator and site safeguards in context.
+
 ## Publishing
 
 Create a Markdown file under `_posts/YYYY-MM-DD-descriptive-slug.md`. Use Jekyll front matter:
