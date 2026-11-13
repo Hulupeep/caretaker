@@ -2,11 +2,21 @@
 
 **Keep the machines you love alive.**
 
-Caretaker is an open-source experiment in helping people understand, repair, restore and extend the lives of the things they own.
+## Imagine never having to buy another car.
 
-Our long-term vision is a workshop on your property where software agents, sensors, tools, people and eventually robots care for your machines. Leave an old bicycle, motorbike, boat component, 1950s Kenwood mixer or fridge in its care. One day, a robot might inspect and repair suitable items overnight, verify the work and leave you a clear report in the morning. When it cannot safely handle a job, it stops and brings in the right person.
+You find a van you love. You keep it for the journeys, the memories and the life built around it. When something wears out, it gets repaired. When it needs an upgrade, it gets one. Years later, it's still yours—and still taking you places.
 
-We want “buy another one” to be a choice rather than the default. Longer useful lives can reduce waste and resource use, though the best environmental choice depends on the object and circumstances.
+Now imagine that same care for your grandfather's motorbike. A boat left in a field. A 1950s Kenwood mixer. A bicycle that's been through three children. A beautiful old fridge that deserves another life.
+
+**Caretaker is an open-source experiment to make that world possible.**
+
+We're building towards a future in which every machine can have a caretaker: a companion that gets to know it, listens to it, looks after it and helps keep it working. A team of people, software, sensors and robots that can find problems, plan repairs and bring old things back to life.
+
+Imagine a workshop on your property. You leave a broken bicycle in the evening. Overnight, a caretaker inspects it, repairs what it can, checks its work and leaves you a report in the morning. Your old mixer, boat and van have their own histories too: what they need, what has been fixed and where their next adventure might take them.
+
+**Fewer things thrown away. More things loved, repaired and passed on.**
+
+This is the beginning, and we need your help to build it.
 
 ## Start with one T4
 
@@ -14,7 +24,7 @@ The first user is Colm and the first vehicle use case is his planned 1996 Volksw
 
 Record its history; collect a dated observation; produce a brief with evidence, unknowns and the next useful check; record what a mechanic or owner finds. A simple household object can be a parallel first physical-repair case. See the [first experiment](experiments/001-t4-caretaker.md).
 
-This repository currently contains the product hypothesis and experiment plan. It does **not** yet implement vehicle diagnostics, sensor analysis, physical robotics or autonomous repair.
+We're starting with the product hypothesis and first experiments. Bring your own machine, skills or ideas and help turn them into working systems.
 
 ## Inspiration
 
@@ -53,7 +63,7 @@ The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fri
 
 ## Principles
 
-Evidence before diagnosis. Unknown is not healthy. Human and expert involvement where needed. Owner control of data and actions. Verify repairs and record failures. Gradually expand robot autonomy only after task-specific testing, safety controls and independent review. Never promise to detect every failure.
+Learn from real machines. Share the evidence, including what doesn't work. Give owners control of their data. Build with repairers and specialists, verify the work, and earn each new level of autonomy.
 
 ## Licence
 
