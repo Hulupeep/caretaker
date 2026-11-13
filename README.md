@@ -31,7 +31,7 @@ We have not copied its code; xj-scanner is GPL-3.0. Check third-party licences b
 5. Carefully validated, bounded overnight tasks.
 6. A lifetime caretaker for many kinds of objects.
 
-Read the full [roadmap](docs/roadmap.md). These are stages of a hypothesis, not promises or a delivery schedule.
+Explore the [visual timeline](docs/visual-roadmap.md) and the full [roadmap](docs/roadmap.md). Dates are illustrative hypotheses, not promises.
 
 ## Repository
 
