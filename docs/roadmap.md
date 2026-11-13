@@ -6,7 +6,7 @@ Caretaker becomes a persistent team of software agents, sensors, tools, people a
 
 The ambition is to make “buy another one” a choice, not the default. This is a vision, not a promise that every object can be repaired, that every fault can be detected, or that a repair will always be lower impact. Old machines may need safety, efficiency or compatibility upgrades, not just restoration.
 
-Stages below describe capability gates, not dates or claims that the technology already works. The T4 and a first physical repair can progress as complementary experiments; neither requires waiting for a general-purpose humanoid.
+See the [visual timeline](visual-roadmap.md) for illustrative windows and milestones. Stages below describe capability gates, not claims that the technology already works. The T4 and a first physical repair can progress as complementary experiments; neither requires waiting for a general-purpose humanoid.
 
 ## 0. One machine, one care loop — now
 
