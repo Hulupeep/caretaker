@@ -60,6 +60,7 @@ The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fri
 
 ## Start building
 
+- [Connect a 1996 VW T4 2.5 TDI](machines/vw-t4-acv/README.md) with a Raspberry Pi or Linux laptop. Includes the wiring schematic, parts and diagnostic logger.
 - [Run the first observation log](tools/README.md) on your own computer.
 - Explore sensor ideas for a [1970s tractor](machines/tractors/1970s-tractor.md) and [JCB-type plant equipment](machines/plant/jcb-backhoe-concept.md).
 - Propose a sensor, machine interface or data importer using the [sensor guide](docs/sensors-and-adapters.md) and [adapter contract](docs/adapter-contract.md).

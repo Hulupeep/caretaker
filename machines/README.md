@@ -4,6 +4,8 @@ Caretaker begins with a T4, but the goal is to learn from many machines: bicycle
 
 **Bring a machine you know.** You can contribute a documented experiment, a machine profile, a sensor setup, an existing repair project or a link to useful work. A repair that failed or a sensor that gave misleading readings is valuable too.
 
+- [1996 Volkswagen T4 2.5 TDI ACV](vw-t4-acv/README.md) · K-line interface, parts, workshop manuals and diagnostic logger.
+
 ## Add a machine profile
 
 1. Copy [machine-template.md](machine-template.md) to a new, descriptive path such as `machines/bicycles/example-model.md`.
