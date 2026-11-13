@@ -5,22 +5,25 @@ import argparse
 import json
 import os
 import sys
+import time
 from datetime import datetime, timezone
+from itertools import count
 from pathlib import Path
 
 from acv import group_observations, part_number
 from kw1281 import ACK, ALLOWED_GROUPS, MEASURED, NAK, Block, EngineSession, KLine, LinkError
 
 
-def observation(args, kind, value, unit="", *, timestamp=None, **details):
+def observation(args, kind, value, unit="", *, timestamp=None, source="vw-t4-kw1281",
+                context=None, **details):
     return {
         "timestamp": timestamp or datetime.now(timezone.utc).isoformat(timespec="milliseconds"),
         "machine": args.machine,
         "kind": kind,
         "value": value,
         "unit": unit,
-        "source": "vw-t4-kw1281",
-        "context": args.context,
+        "source": source,
+        "context": args.context if context is None else context,
         "simulated": args.command == "demo",
         "details": details,
     }
@@ -48,9 +51,11 @@ def fault_records(args, part, status, faults):
         )
 
 
-def measurement_records(args, part, block, sample):
-    timestamp = datetime.now(timezone.utc).isoformat(timespec="milliseconds")
+def measurement_records(args, part, block, sample, *, timestamp=None, capture_id=None):
+    timestamp = timestamp or datetime.now(timezone.utc).isoformat(timespec="milliseconds")
     for name, value, unit, details in group_observations(block, args.group, part):
+        if capture_id is not None:
+            details["capture_id"] = capture_id
         yield observation(
             args, name, value, unit, timestamp=timestamp, ecu_part_number=part, sample=sample,
             **details,
@@ -107,9 +112,14 @@ def capture(args, records):
             status, faults = session.read_faults()
             records.extend(fault_records(args, part, status, faults))
         elif args.command == "log":
-            for sample in range(1, args.count + 1):
+            deadline = None if args.seconds is None else time.monotonic() + args.seconds
+            samples = range(1, args.count + 1) if deadline is None else count(1)
+            for sample in samples:
+                if deadline is not None and time.monotonic() >= deadline:
+                    break
                 block = session.read_group(args.group)
-                records.extend(measurement_records(args, part, block, sample))
+                records.extend(measurement_records(args, part, block, sample,
+                                                   capture_id=ident["timestamp"]))
                 if block.title in (ACK, NAK):
                     break
         # Send the end block only after a complete exchange. After link loss
@@ -122,6 +132,13 @@ def count_argument(value):
     if not 1 <= count <= 300:
         raise argparse.ArgumentTypeError("count must be between 1 and 300")
     return count
+
+
+def seconds_argument(value):
+    seconds = int(value)
+    if not 1 <= seconds <= 600:
+        raise argparse.ArgumentTypeError("seconds must be between 1 and 600")
+    return seconds
 
 
 def arguments(argv):
@@ -144,7 +161,9 @@ def arguments(argv):
             command.add_argument("--byte-delay-ms", type=int, choices=range(2, 11), default=5)
         if name == "log":
             command.add_argument("--group", type=int, choices=ALLOWED_GROUPS, default=1)
-            command.add_argument("--count", type=count_argument, default=1)
+            limit = command.add_mutually_exclusive_group()
+            limit.add_argument("--count", type=count_argument, default=1)
+            limit.add_argument("--seconds", type=seconds_argument, help="Time limit after the ECU connects")
     return parser.parse_args(argv)
 
 
