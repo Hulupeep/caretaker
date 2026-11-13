@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+<meta name="description" content="{{ page.description | default: site.description | escape }}">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+<link rel="alternate" type="application/atom+xml" title="{{ site.title | escape }} feed" href="{{ '/feed.xml' | relative_url }}">
+<meta property="og:title" content="{{ page.title | default: site.title | escape }}">
+<meta property="og:description" content="{{ page.description | default: site.description | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+<style>
+:root{color-scheme:light;--ink:#1c2923;--green:#315f48;--muted:#58675d;--cream:#f7f6ef}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:18px/1.7 system-ui,-apple-system,sans-serif}header,main,footer{max-width:780px;margin:auto;padding:1.3rem}header{display:flex;align-items:center;justify-content:space-between;gap:1rem;border-bottom:1px solid #cbd4c9}nav{display:flex;gap:1rem;flex-wrap:wrap}a{color:var(--green)}.brand{font-size:1.15rem;font-weight:800;text-decoration:none}h1,h2,h3{line-height:1.2;letter-spacing:-.03em}h1{font-size:clamp(2.5rem,7vw,4rem);margin:2rem 0 1rem}h2{margin-top:2.2rem}main{min-height:65vh}footer{border-top:1px solid #cbd4c9;color:var(--muted);font-size:.9rem}.meta{color:var(--muted)}.entry{padding:1.2rem 0;border-bottom:1px solid #cbd4c9}.entry h2{margin:.25rem 0;font-size:1.55rem}.entry p{margin:.3rem 0}blockquote{border-left:4px solid var(--green);padding-left:1rem;margin-left:0}img{max-width:100%}code{overflow-wrap:anywhere}@media(max-width:500px){header{align-items:flex-start;flex-direction:column}body{font-size:17px}}
+</style>
+</head>
+<body>
+<header><a class="brand" href="{{ '/' | relative_url }}">CARETAKER</a><nav aria-label="Main navigation"><a href="{{ '/journal/' | relative_url }}">Journal</a><a href="https://github.com/Hulupeep/caretaker">GitHub</a><a href="https://github.com/Hulupeep/caretaker/blob/main/CONTRIBUTING.md">Contribute</a></nav></header>
+<main>{{ content }}</main>
+<footer>Keep the machines you love alive. · <a href="{{ '/feed.xml' | relative_url }}">RSS / Atom</a> · <a href="https://github.com/Hulupeep/caretaker">Open source</a></footer>
+</body></html>
