@@ -33,6 +33,16 @@ We have not copied its code; xj-scanner is GPL-3.0. Check third-party licences b
 
 Explore the [visual timeline](docs/visual-roadmap.md) and the full [roadmap](docs/roadmap.md). Dates are illustrative hypotheses, not promises.
 
+## Join in: bring your machine
+
+The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fridge, tractor or another machine you want to keep working? Have you built a sensor, diagnostic tool, repair system or robot—or tried an experiment that taught you something?
+
+**Bring it here.** Share what you are working on, link an existing project, document an experiment or open a pull request. Inconclusive and failed experiments are welcome: they help everyone learn. You don't need to code or own a T4.
+
+- [Introduce a machine or existing project](https://github.com/Hulupeep/caretaker/issues/new?template=machine.yml)
+- [Propose or share an experiment](https://github.com/Hulupeep/caretaker/issues/new?template=experiment.yml)
+- [Explore machine profiles](machines/README.md) and the [contribution guide](CONTRIBUTING.md)
+
 ## Repository
 
 - [Product hypothesis](docs/product-hypothesis.md)
