@@ -1,0 +1,3 @@
+/target/
+# This checked-in fixture is synthetic; private machine histories remain ignored.
+!/fixtures/t4-demo.jsonl
