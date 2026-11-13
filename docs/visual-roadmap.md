@@ -1,8 +1,8 @@
 # Caretaker: visual roadmap
 
-**North star:** a workshop that keeps the things you love working, eventually performing suitable, authorised repairs overnight.
+**Imagine never having to buy another car.** Imagine a workshop that knows your machines, keeps them working and brings them back to life—while you sleep. This is the journey we want to take together.
 
-These dates are illustrative planning assumptions made in November 2026, not estimates backed by staffing, funding, hardware access or completed tests. Bars show windows for exploration, not periods of continuous work. The robot stages are particularly uncertain and depend on funding, available hardware, task-specific evidence and safety review. Move or stop stages as evidence dictates.
+This is a starting map for an open-source experiment. The dates are illustrative: we'll redraw them as people contribute, experiments succeed and we learn what it takes to build the workshop.
 
 ## First 12 months: establish the care loop
 
@@ -48,7 +48,7 @@ gantt
     Broader lifetime workshop research    :l7, 2034-01-01, 2040-01-01
 ```
 
-These long-range dates are **scenarios, not predictions**. They may prove too early, too late, unaffordable or infeasible. Overlap means research can run in parallel; permission to deploy a later stage still depends on the gates below.
+The long view is an invitation to experiment, not a fixed delivery schedule. Different people can explore different pieces in parallel; the evidence from each experiment helps shape what comes next.
 
 | Transition | Evidence needed before advancing |
 | --- | --- |
@@ -62,6 +62,6 @@ These long-range dates are **scenarios, not predictions**. They may prove too ea
 
 > “The bicycle was inspected, cleaned and the approved part fitted. Here are the before-and-after images and test results. The brakes still need a qualified check before use. I stopped work on the mixer because the part didn't match.”
 
-That report is a **future scenario**, not current functionality. Repairing a fridge, road vehicle or mains appliance can require specialist work and verification.
+That's the kind of morning we're working towards. Each experiment, repaired object and contribution brings the workshop a little closer.
 
 [Read the detailed roadmap](roadmap.md) · [Explore the first T4 experiment](../experiments/001-t4-caretaker.md)
