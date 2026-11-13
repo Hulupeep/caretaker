@@ -18,7 +18,7 @@ Imagine a workshop on your property. You leave a broken bicycle in the evening. 
 
 This is the beginning, and we need your help to build it.
 
-## Start with one T4
+## Start with one VW T4, then a tractor, then a digger
 
 The first user is Colm and the first vehicle use case is his planned 1996 Volkswagen T4 2.5 TDI. The actual van, ECU, sensors and measurements have not yet been verified.
 
