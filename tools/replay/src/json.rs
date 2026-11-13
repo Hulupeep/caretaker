@@ -53,13 +53,13 @@ fn quote(value: &str) -> String {
     let mut out = String::from("\"");
     for c in value.chars() {
         match c {
-            '"' => out.push_str("\\\""), '\\' => out.push_str("\\\\"),
+            '\"' => out.push_str("\\\""), '\\' => out.push_str("\\\\"),
             '\n' => out.push_str("\\n"), '\r' => out.push_str("\\r"), '\t' => out.push_str("\\t"),
             c if c < ' ' => out.push_str(&format!("\\u{:04x}", c as u32)),
             c => out.push(c),
         }
     }
-    out.push('"');
+    out.push('\"');
     out
 }
 
@@ -80,7 +80,7 @@ impl<'a> Parser<'a> {
             Some(b'n') => { self.literal(b"null")?; Ok(Json::Null) }
             Some(b't') => { self.literal(b"true")?; Ok(Json::Bool(true)) }
             Some(b'f') => { self.literal(b"false")?; Ok(Json::Bool(false)) }
-            Some(b'"') => Ok(Json::String(self.string()?)),
+            Some(b'\"') => Ok(Json::String(self.string()?)),
             Some(b'[') => self.array(), Some(b'{') => self.object(),
             Some(b'-' | b'0'..=b'9') => self.number(),
             _ => Err(format!("expected JSON value at byte {}", self.pos)),
@@ -97,12 +97,12 @@ impl<'a> Parser<'a> {
         while let Some(byte) = self.bytes.get(self.pos).copied() {
             self.pos += 1;
             match byte {
-                b'"' => return Ok(out),
+                b'\"' => return Ok(out),
                 b'\\' => {
                     let escaped = self.bytes.get(self.pos).copied().ok_or("unterminated escape")?;
                     self.pos += 1;
                     match escaped {
-                        b'"' => out.push('"'), b'\\' => out.push('\\'), b'/' => out.push('/'),
+                        b'\"' => out.push('\"'), b'\\' => out.push('\\'), b'/' => out.push('/'),
                         b'b' => out.push('\u{8}'), b'f' => out.push('\u{c}'), b'n' => out.push('\n'),
                         b'r' => out.push('\r'), b't' => out.push('\t'),
                         b'u' => {
@@ -151,7 +151,7 @@ impl<'a> Parser<'a> {
         self.pos += 1; let mut values = BTreeMap::new(); self.space();
         if self.bytes.get(self.pos) == Some(&b'}') { self.pos += 1; return Ok(Json::Object(values)); }
         loop {
-            self.space(); if self.bytes.get(self.pos) != Some(&b'"') { return Err("expected object key".into()); }
+            self.space(); if self.bytes.get(self.pos) != Some(&b'\"') { return Err("expected object key".into()); }
             let key = self.string()?; self.space();
             if self.bytes.get(self.pos) != Some(&b':') { return Err("expected ':'".into()); }
             self.pos += 1; values.insert(key, self.value()?); self.space();
