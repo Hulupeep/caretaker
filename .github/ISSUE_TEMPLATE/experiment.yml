@@ -1,0 +1,25 @@
+name: Propose or share an experiment
+description: Share a real or proposed observation, sensor test, repair or result.
+title: "[Experiment]: "
+body:
+  - type: textarea
+    id: question
+    attributes:
+      label: Machine and question
+      description: "What machine are you working on and what are you trying to learn?"
+    validations:
+      required: true
+  - type: textarea
+    id: method
+    attributes:
+      label: Setup and approach
+      description: "How would you test it? Distinguish real observations from simulated data."
+  - type: textarea
+    id: results
+    attributes:
+      label: Evidence and result
+      description: "What happened, how was it verified, and what is still unknown? Pending and negative results are welcome."
+  - type: textarea
+    id: next
+    attributes:
+      label: Next step and relevant specialist checks
