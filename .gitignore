@@ -1,0 +1,6 @@
+# Local machine histories may contain private data
+*.jsonl
+.env
+__pycache__/
+_site/
+.jekyll-cache/
