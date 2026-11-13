@@ -55,6 +55,7 @@ The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fri
 
 ## Repository
 
+- [Use cases and commercial angles](docs/use-cases-and-commercial-angles.md)
 - [Product hypothesis](docs/product-hypothesis.md)
 - [Roadmap and gates](docs/roadmap.md)
 - [First T4 experiment](experiments/001-t4-caretaker.md)
