@@ -2,7 +2,8 @@
 
 A 93-second animated story about one family, one 1996 Volkswagen T4 and the idea behind Caretaker. It illustrates the hypothesis in [product-hypothesis.md](product-hypothesis.md). Nothing in it has been built, tested or verified.
 
-- [Watch the film (MP4, 720p, 1:33)](../media/caretaker-concept-film.mp4)
+- [Watch on YouTube](https://youtu.be/tzicF85v1a4)
+- [Download the film (MP4, 720p, 1:33)](../media/caretaker-concept-film.mp4)
 - [Subtitles (SRT)](../media/caretaker-concept-film.srt)
 
 ## What the film does and does not claim

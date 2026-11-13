@@ -2,9 +2,9 @@
 
 **Keep the machines you love alive.**
 
-<a href="media/caretaker-concept-film.mp4"><img src="media/caretaker-film-poster.jpg" alt="Caretaker concept film: a red 1996 VW T4 parked by the sea at dusk, with a play button" width="720"></a>
+<a href="https://youtu.be/tzicF85v1a4"><img src="media/caretaker-film-poster.jpg" alt="Caretaker concept film: a red 1996 VW T4 parked by the sea at dusk, with a play button" width="720"></a>
 
-**[Watch the 93-second concept film](media/caretaker-concept-film.mp4)** · [subtitles](media/caretaker-concept-film.srt) · [script and notes](docs/concept-film.md)  
+**[Watch the 93-second concept film on YouTube](https://youtu.be/tzicF85v1a4)** · [download the MP4](media/caretaker-concept-film.mp4) · [subtitles](media/caretaker-concept-film.srt) · [script and notes](docs/concept-film.md)  
 A story about one family and one old van. It illustrates the idea: nothing in it has been built or tested yet.
 
 ## Imagine never having to buy another car.
