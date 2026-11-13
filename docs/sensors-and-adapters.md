@@ -18,6 +18,3 @@ Compare like with like: date, sensor, placement, operating state, temperature, l
 
 An adapter turns an observation into a common record while preserving provenance. It might read a diagnostic log, a sensor file, a phone image, or a human-entered note. The first contract and example are in [adapter contract](adapter-contract.md). See [1970s tractor](../machines/tractors/1970s-tractor.md), [JCB-type plant](../machines/plant/jcb-backhoe-concept.md) and [T4](../experiments/001-t4-caretaker.md).
 
-## Why not rewrite the Jeep scanner in Rust?
-
-[MZULALI/xj-scanner](https://github.com/MZULALI/xj-scanner) already tackles a specific Jeep computer. Use it as inspiration and work with the community. First establish a real need and compatible source/licence. A Rust rewrite of the same protocol is a possible contributor experiment, but would not by itself add T4, tractor or hydraulic coverage. Keep its GPL-3.0 obligations in mind before copying or adapting code. A future adapter can ingest an authorised export without pretending the Jeep protocol is universal.
