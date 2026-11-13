@@ -8,6 +8,8 @@ As Colm, I want to understand what is known about a particular T4 and what to ch
 
 Actual vehicle identity if available, service records and one real observation: owner note, photo or existing scan. If there is no van, use an explicitly labelled prospective vehicle with real public information and leave unavailable fields unknown. Synthetic data may exercise the format but is never evidence of performance.
 
+For an early ACV, use the [T4 diagnostic build](../machines/vw-t4-acv/README.md) to capture the engine ECU identity, faults and measuring blocks. Its first physical test uses a parked comparison with a workshop scanner.
+
 ## Procedure
 
 1. Create a private copy of the machine record template. Record source and dates. Do not put identifying or location data into a public repository.

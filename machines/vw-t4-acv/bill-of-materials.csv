@@ -1,0 +1,11 @@
+quantity,part,manufacturer,part_number,configuration,source_url
+1,USB FTDI KKL lead,Lonelec,LEZBVAG4091,Standard build with 16-pin diagnostic plug and USB-A,https://www.lonelec.com/product/vag-com-vcds-compatible-diagnostic-kkl-interface/
+1,USB FTDI KKL lead,CCY,200214,Alternative to the Lonelec lead,https://ccy.pl/en/shop/zestaw-interfejs-obd2-vag-kkl-409-1-usb-ccy-p%C5%82yta-detail.html
+1,Linux laptop with battery and USB,,Existing laptop,First test host,
+1,VW 2x2 diagnostic adapter,Ross-Tech,AF2X2,Only for original paired 2-pin VW sockets,https://store.ross-tech.com/shop/af2x2/
+1,USB-C to USB-A adapter,StarTech,USB31CAADP,Only if the host has no USB-A port,https://www.startech.com/en-ie/cables/usb31caadp
+1,"Raspberry Pi 4 Model B, 2 GB",Raspberry Pi,SC0193,Dedicated host alternative to laptop,https://sgeducation.ie/collections/raspberry-pi-4/products/raspberry-pi-4-model-b-2gb
+1,High Endurance microSD 32 GB,SanDisk,SDSQQNR-032G-GN6IA,Dedicated Pi build,https://www.sandisk.com/en-ie/products/memory-cards/microsd-cards/sandisk-high-endurance-uhs-i-microsd
+1,Official Pi 4 case,Raspberry Pi,SC0229,Dedicated Pi build,https://www.tme.eu/ie/en/details/sc0229/raspberry-pi-acessories/raspberry-pi/rpi-official-case-for-pi4-red-white/
+1,Type G 5.1 V 3 A USB-C power supply,Raspberry Pi,SC0212,Dedicated Pi build on a bench,https://cpcireland.farnell.com/raspberry-pi/sc0212/psu-5-1v-3a-usb-c-uk-white/dp/SC15228
+1,Nano 10K power bank with built-in USB-C lead,Anker,A1259,Dedicated Pi build in the van,https://www.anker.com/eu-en/products/a1259-built-in-cable-power-bank-10000mah

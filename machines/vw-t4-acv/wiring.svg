@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1140 640" role="img" aria-labelledby="title desc">
+  <title id="title">1996 Volkswagen T4 ACV diagnostic wiring</title>
+  <desc id="desc">Front view of the van's 16-pin diagnostic socket and its connections to a Lonelec FTDI KKL cable. Pin 4 is chassis ground, 5 is signal ground, 7 is bidirectional K-line and 16 supplies vehicle-side battery power to the cable. USB connects the cable to a separately powered Raspberry Pi or Linux laptop.</desc>
+  <defs>
+    <marker id="signal" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto-start-reverse" viewBox="0 0 8 8">
+      <path d="M0 0L8 4L0 8Z" fill="#08776d"/>
+    </marker>
+    <marker id="supply" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" viewBox="0 0 8 8">
+      <path d="M0 0L8 4L0 8Z" fill="#a9402c"/>
+    </marker>
+    <marker id="host-power" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" viewBox="0 0 8 8">
+      <path d="M0 0L8 4L0 8Z" fill="#465976"/>
+    </marker>
+  </defs>
+  <rect width="1140" height="640" fill="#f4f6f3"/>
+  <g font-family="'DejaVu Sans',sans-serif" fill="#172926">
+    <text x="46" y="62" font-size="35" font-weight="700">1996 VW T4 2.5 TDI · ACV</text>
+    <text x="47" y="93" fill="#445a55" font-size="19">Diagnostic interconnect · Engine ECU address 01 · K-line</text>
+    <path d="M46 111H1094" stroke="#cbd6d0"/>
+
+    <rect x="46" y="132" width="298" height="380" rx="12" fill="#fff" stroke="#bac9c1"/>
+    <rect x="476" y="132" width="297" height="380" rx="12" fill="#fff" stroke="#bac9c1"/>
+    <rect x="894" y="254" width="200" height="198" rx="12" fill="#fff" stroke="#bac9c1"/>
+
+    <text x="69" y="166" font-size="21" font-weight="700">T16 diagnostic socket</text>
+    <path d="M72 188H318L302 263H88Z" fill="#eff3f0" stroke="#526760" stroke-width="2" stroke-linejoin="round"/>
+    <g fill="#fff" stroke="#aebbb4">
+      <rect x="87" y="197" width="20" height="23" rx="4"/><rect x="115" y="197" width="20" height="23" rx="4"/>
+      <rect x="143" y="197" width="20" height="23" rx="4"/><rect x="283" y="197" width="20" height="23" rx="4"/>
+      <rect x="87" y="230" width="20" height="23" rx="4"/><rect x="115" y="230" width="20" height="23" rx="4"/>
+      <rect x="143" y="230" width="20" height="23" rx="4"/><rect x="171" y="230" width="20" height="23" rx="4"/>
+      <rect x="199" y="230" width="20" height="23" rx="4"/><rect x="227" y="230" width="20" height="23" rx="4"/>
+      <rect x="255" y="230" width="20" height="23" rx="4"/>
+      <rect x="171" y="197" width="20" height="23" rx="4" fill="#e6edf6" stroke="#465976"/>
+      <rect x="199" y="197" width="20" height="23" rx="4" fill="#e6edf6" stroke="#465976"/>
+      <rect x="227" y="197" width="20" height="23" rx="4"/>
+      <rect x="255" y="197" width="20" height="23" rx="4" fill="#d3eee7" stroke="#08776d"/>
+      <rect x="283" y="230" width="20" height="23" rx="4" fill="#fae0d9" stroke="#a9402c"/>
+    </g>
+    <g text-anchor="middle" font-size="13">
+      <text y="213"><tspan x="97">1</tspan><tspan x="125">2</tspan><tspan x="153">3</tspan><tspan x="181" font-weight="700">4</tspan><tspan x="209" font-weight="700">5</tspan><tspan x="237">6</tspan><tspan x="265" font-weight="700">7</tspan><tspan x="293">8</tspan></text>
+      <text y="246"><tspan x="97">9</tspan><tspan x="125">10</tspan><tspan x="153">11</tspan><tspan x="181">12</tspan><tspan x="209">13</tspan><tspan x="237">14</tspan><tspan x="265">15</tspan><tspan x="293" font-weight="700">16</tspan></text>
+    </g>
+    <text x="195" y="288" text-anchor="middle" fill="#445a55" font-size="14">Van socket face · wide edge up</text>
+    <path d="M69 304H321" stroke="#e0e7e2"/>
+
+    <g font-size="16">
+      <g font-weight="700" text-anchor="middle">
+        <text x="84" y="337">4</text><text x="84" y="378">5</text>
+        <text x="84" y="419" fill="#08776d">7</text><text x="84" y="460" fill="#a9402c">16</text>
+      </g>
+      <text x="109" y="337">Chassis ground</text>
+      <text x="109" y="378">Signal ground</text>
+      <text x="109" y="419" fill="#08776d">K-line</text>
+      <text x="109" y="460" fill="#a9402c">Fused battery +12 V</text>
+    </g>
+
+    <text x="501" y="166" font-size="21" font-weight="700">USB KKL interface</text>
+    <text x="501" y="194" font-size="16">Lonelec LEZBVAG4091</text>
+    <rect x="501" y="217" width="246" height="73" rx="8" fill="#eef6f2"/>
+    <text x="520" y="246" font-size="16">Vehicle K-line transceiver</text>
+    <text x="520" y="271" font-size="16">FTDI USB serial</text>
+    <path d="M501 304H747" stroke="#e0e7e2"/>
+    <g font-size="16">
+      <text x="501" y="337">Chassis ground</text>
+      <text x="501" y="378">Signal ground</text>
+      <text x="501" y="419" fill="#08776d">K-line in / out</text>
+      <text x="501" y="460" fill="#a9402c">Vehicle-side supply only</text>
+    </g>
+    <g fill="none" stroke-width="2.4">
+      <path d="M344 331H476M344 372H476" stroke="#465976"/>
+      <path d="M355 413H465" stroke="#08776d" marker-start="url(#signal)" marker-end="url(#signal)"/>
+      <path d="M344 454H465" stroke="#a9402c" marker-end="url(#supply)"/>
+      <path d="M785 353H882" stroke="#08776d" marker-start="url(#signal)" marker-end="url(#signal)"/>
+      <path d="M994 512V464" stroke="#465976" marker-end="url(#host-power)"/>
+    </g>
+    <g fill="#fff" stroke-width="2">
+      <g stroke="#465976">
+        <circle cx="344" cy="331" r="4"/><circle cx="476" cy="331" r="4"/>
+        <circle cx="344" cy="372" r="4"/><circle cx="476" cy="372" r="4"/>
+      </g>
+      <g stroke="#08776d">
+        <circle cx="344" cy="413" r="4"/><circle cx="476" cy="413" r="4"/>
+        <circle cx="773" cy="353" r="4"/><circle cx="894" cy="353" r="4"/>
+      </g>
+      <g stroke="#a9402c"><circle cx="344" cy="454" r="4"/><circle cx="476" cy="454" r="4"/></g>
+      <circle cx="994" cy="452" r="4" stroke="#465976"/>
+    </g>
+    <text x="833" y="333" font-size="14" font-weight="700" text-anchor="middle" fill="#08776d">USB-A</text>
+
+    <text x="994" y="294" font-size="20" font-weight="700" text-anchor="middle">Raspberry Pi 4</text>
+    <text x="994" y="319" font-size="16" text-anchor="middle">or Linux laptop</text>
+    <rect x="921" y="369" width="146" height="44" rx="8" fill="#eef6f2"/>
+    <text x="994" y="397" font-size="16" text-anchor="middle">Python logger</text>
+    <text x="994" y="535" font-size="14" font-weight="700" text-anchor="middle" fill="#465976">Independent host power</text>
+
+    <path d="M46 558H1094" stroke="#cbd6d0"/>
+    <text x="47" y="586" font-size="16"><tspan font-weight="700">Two 2-pin sockets?</tspan> Fit the Ross-Tech AF2X2 between the van and the KKL lead.</text>
+    <text x="47" y="612" fill="#445a55" font-size="14">Connector references · VW Transporter current-flow sheet 8/8 (02.96) and SAE J1962 socket orientation</text>
+  </g>
+</svg>
