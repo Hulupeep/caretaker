@@ -12,3 +12,14 @@ The example is simulated, not a recommended voltage or evidence of a working tra
 Keep your JSONL and machine identifiers private. The tool stores a local file; it does not upload, encrypt, enforce consent, validate readings or detect failures.
 
 Next: agree a machine-readable observation contract, accept exports from real adapters and compare with a repeatable baseline—without pretending a measurement proves a diagnosis.
+
+## Offline replay prototype
+
+`tools/replay/` contains a dependency-free Rust capture-replay experiment. It applies a narrowly supported DBC decoder, verifies it against a separate reference, emits Caretaker JSONL, and preserves the existing synthetic T4 demo. All bundled CAN fixtures are simulated; the wrong-match fixture must remain `UNCONFIRMED`.
+
+```sh
+cargo test --manifest-path tools/replay/Cargo.toml
+sh tools/replay/demo.sh
+```
+
+The prototype performs no hardware I/O. See `tools/replay/README.md` for formats, limits, and outputs.
