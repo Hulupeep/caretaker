@@ -1,0 +1,12 @@
+---
+layout: default
+title: The Caretaker Journal
+description: "Research and stories about repair, robotics, machine longevity and keeping useful things alive."
+---
+<h1>The Caretaker Journal</h1>
+<p>Ideas, experiments and discoveries for a world that repairs. Research, real machines and the people giving them another life.</p>
+{% for post in site.posts %}
+<article class="entry"><h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2><p class="meta"><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %B %Y" }}</time></p><p>{{ post.description | escape }}</p></article>
+{% else %}
+<p>Our first research story is on its way.</p>
+{% endfor %}
