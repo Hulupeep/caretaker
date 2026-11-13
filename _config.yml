@@ -1,0 +1,9 @@
+title: Caretaker
+description: "Keep the machines you love alive. Research, experiments and ideas for a world that repairs."
+url: "https://hulupeep.github.io"
+baseurl: "/caretaker"
+permalink: /journal/:year/:month/:day/:title/
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-feed
