@@ -2,6 +2,11 @@
 
 **Keep the machines you love alive.**
 
+<a href="media/caretaker-concept-film.mp4"><img src="media/caretaker-film-poster.jpg" alt="Caretaker concept film: a red 1996 VW T4 parked by the sea at dusk, with a play button" width="720"></a>
+
+**[Watch the 93-second concept film](media/caretaker-concept-film.mp4)** · [subtitles](media/caretaker-concept-film.srt) · [script and notes](docs/concept-film.md)  
+A story about one family and one old van. It illustrates the idea: nothing in it has been built or tested yet.
+
 ## Imagine never having to buy another car.
 
 You find a van you love. You keep it for the journeys, the memories and the life built around it. When something wears out, it gets repaired. When it needs an upgrade, it gets one. Years later, it's still yours—and still taking you places.
@@ -63,6 +68,7 @@ These first profiles are starting hypotheses; contribute measurements and result
 
 ## Repository
 
+- [Concept film: script and notes](docs/concept-film.md)
 - [Use cases and commercial angles](docs/use-cases-and-commercial-angles.md)
 - [Product hypothesis](docs/product-hypothesis.md)
 - [Roadmap and gates](docs/roadmap.md)
