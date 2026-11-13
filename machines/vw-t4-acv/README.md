@@ -4,6 +4,8 @@ Start with the **75 kW / 102 PS ACV**, an FTDI K-line cable and a Linux laptop. 
 
 [Parts and order links](#parts) · [Wiring schematic](wiring.svg) · [Workshop manuals and sources](sources.md) · [Run the logger](#run-the-logger)
 
+Taking the laptop to a seller? Use the [guided pre-purchase inspection](pre-purchase.md) to record the cold start, road test, parked checks and mechanic's findings in one report.
+
 ## Check the van
 
 1. Confirm **ACV** on the vehicle data sticker or service records. Record the build month if available. First registration alone is insufficient to select a wiring sheet.
