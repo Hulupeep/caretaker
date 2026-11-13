@@ -24,7 +24,7 @@ The first user is Colm and the first vehicle use case is his planned 1996 Volksw
 
 Record its history; collect a dated observation; produce a brief with evidence, unknowns and the next useful check; record what a mechanic or owner finds. A simple household object can be a parallel first physical-repair case. See the [first experiment](experiments/001-t4-caretaker.md).
 
-We're starting with the product hypothesis and first experiments. Bring your own machine, skills or ideas and help turn them into working systems.
+We're starting with a simple working observation log, machine profiles and first experiments. Bring your own machine, skills or ideas and help turn them into working systems.
 
 ## Inspiration
 
@@ -52,6 +52,14 @@ The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fri
 - [Introduce a machine or existing project](https://github.com/Hulupeep/caretaker/issues/new?template=machine.yml)
 - [Propose or share an experiment](https://github.com/Hulupeep/caretaker/issues/new?template=experiment.yml)
 - [Explore machine profiles](machines/README.md) and the [contribution guide](CONTRIBUTING.md)
+
+## Start building
+
+- [Run the first observation log](tools/README.md) on your own computer.
+- Explore sensor ideas for a [1970s tractor](machines/tractors/1970s-tractor.md) and [JCB-type plant equipment](machines/plant/jcb-backhoe-concept.md).
+- Propose a sensor, machine interface or data importer using the [sensor guide](docs/sensors-and-adapters.md) and [adapter contract](docs/adapter-contract.md).
+
+These first profiles are starting hypotheses; contribute measurements and results from real machines.
 
 ## Repository
 
