@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Two jobs, the same evidence contract</title>
+  <desc id="desc">A VW T4 using an accessible KW1281 controller and an older tractor using camera and external instruments share identity, acquisition, verification and handover gates.</desc>
+  <defs>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#218b82"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2f7f9f"/></marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c98332"/></marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b55454"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="800" y="50" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle"><tspan x="800" dy="0">Two jobs, the same evidence contract</tspan></text>
+  <text x="800" y="86" fill="#415660" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle"><tspan x="800" dy="0">Different acquisition hardware; identical review and verification gates</tspan></text>
+  <rect x="25" y="145" width="1550" height="370" rx="16" fill="#f3f8fa" stroke="#2f7f9f" stroke-width="2"/>
+  <text x="80" y="197" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start"><tspan x="80" dy="0">JOB A — 1996 VW T4 ACV, accessible KW1281 controller</tspan></text>
+  <rect x="25" y="545" width="1550" height="370" rx="16" fill="#fffaf2" stroke="#c98332" stroke-width="2"/>
+  <text x="80" y="597" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="start"><tspan x="80" dy="0">JOB B — older tractor, camera + external instruments</tspan></text>
+  <rect x="55" y="260" width="275" height="200" rx="18" fill="#ffffff" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="192.5" y="335" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="192.5" dy="0">IDENTIFY</tspan></text>
+  <text x="192.5" y="376" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="192.5" dy="0">Van + ECU</tspan><tspan x="192.5" dy="27">074906021F?</tspan></text>
+  <rect x="355" y="260" width="275" height="200" rx="18" fill="#ffffff" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="492.5" y="335" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="492.5" dy="0">ACQUIRE</tspan></text>
+  <text x="492.5" y="376" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="492.5" dy="0">Two IDs; raw</tspan><tspan x="492.5" dy="27">KW1281 blocks</tspan></text>
+  <rect x="655" y="260" width="275" height="200" rx="18" fill="#ffffff" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="792.5" y="335" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="792.5" dy="0">CROSS-CHECK</tspan></text>
+  <text x="792.5" y="376" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="792.5" dy="0">VCDS / V.A.G.</tspan><tspan x="792.5" dy="27">1551 reference</tspan></text>
+  <rect x="955" y="260" width="275" height="200" rx="18" fill="#ffffff" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="1092.5" y="335" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1092.5" dy="0">VERIFY</tspan></text>
+  <text x="1092.5" y="376" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="1092.5" dy="0">Off / cold / idle;</tspan><tspan x="1092.5" dy="27">wrong part stays raw</tspan></text>
+  <rect x="1255" y="260" width="275" height="200" rx="18" fill="#ffffff" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="1392.5" y="335" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1392.5" dy="0">HAND OVER</tspan></text>
+  <text x="1392.5" y="376" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="1392.5" dy="0">Profile + capture</tspan><tspan x="1392.5" dy="27">repeatable baseline</tspan></text>
+  <path d="M 330 360 L 343 360" fill="none" stroke="#2f7f9f" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <path d="M 630 360 L 643 360" fill="none" stroke="#2f7f9f" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <path d="M 930 360 L 943 360" fill="none" stroke="#2f7f9f" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <path d="M 1230 360 L 1243 360" fill="none" stroke="#2f7f9f" stroke-width="2.5" marker-end="url(#arrow-blue)"/>
+  <rect x="55" y="660" width="275" height="200" rx="18" fill="#ffffff" stroke="#c98332" stroke-width="2.5"/>
+  <text x="192.5" y="735" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="192.5" dy="0">IDENTIFY</tspan></text>
+  <text x="192.5" y="776" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="192.5" dy="0">Model, gauge,</tspan><tspan x="192.5" dy="27">sensor + revision</tspan></text>
+  <rect x="355" y="660" width="275" height="200" rx="18" fill="#ffffff" stroke="#c98332" stroke-width="2.5"/>
+  <text x="492.5" y="735" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="492.5" dy="0">ACQUIRE</tspan></text>
+  <text x="492.5" y="776" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="492.5" dy="0">Video + clock sync</tspan><tspan x="492.5" dy="27">external readings</tspan></text>
+  <rect x="655" y="660" width="275" height="200" rx="18" fill="#ffffff" stroke="#c98332" stroke-width="2.5"/>
+  <text x="792.5" y="735" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="792.5" dy="0">LABEL</tspan></text>
+  <text x="792.5" y="776" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="792.5" dy="0">OCR + human holds;</tspan><tspan x="792.5" dy="27">record gauge bias</tspan></text>
+  <rect x="955" y="660" width="275" height="200" rx="18" fill="#ffffff" stroke="#c98332" stroke-width="2.5"/>
+  <text x="1092.5" y="735" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1092.5" dy="0">VERIFY</tspan></text>
+  <text x="1092.5" y="776" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="1092.5" dy="0">Fit one run; test</tspan><tspan x="1092.5" dy="27">a separate run + lag</tspan></text>
+  <rect x="1255" y="660" width="275" height="200" rx="18" fill="#ffffff" stroke="#c98332" stroke-width="2.5"/>
+  <text x="1392.5" y="735" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1392.5" dy="0">HAND OVER</tspan></text>
+  <text x="1392.5" y="776" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="1392.5" dy="0">ROI + references</tspan><tspan x="1392.5" dy="27">uncertainty + test</tspan></text>
+  <path d="M 330 760 L 343 760" fill="none" stroke="#c98332" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+  <path d="M 630 760 L 643 760" fill="none" stroke="#c98332" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+  <path d="M 930 760 L 943 760" fill="none" stroke="#c98332" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+  <path d="M 1230 760 L 1243 760" fill="none" stroke="#c98332" stroke-width="2.5" marker-end="url(#arrow-orange)"/>
+  <text x="800" y="968" fill="#b55454" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="800" dy="0">Either job can end at UNSUPPORTED or UNCONFIRMED without losing the raw evidence.</tspan></text>
+</svg>

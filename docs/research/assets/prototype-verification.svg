@@ -1,0 +1,131 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="850" viewBox="0 0 1500 850" role="img" aria-labelledby="title desc">
+<title id="title">High correlation is not verification</title>
+<desc id="desc">Synthetic independent CAN holdout. The accepted speed decoder has zero error. A plausible wrong bit field has correlation 0.9836 but RMSE 29.84 kilometres per hour and remains unconfirmed.</desc>
+<rect width="1500" height="850" fill="#f7f8f5"/>
+<style>text{font-family:Inter,Segoe UI,Arial,sans-serif} .title{font-size:34px;font-weight:700;fill:#172a3a} .sub{font-size:18px;fill:#5a6872} .label{font-size:16px;fill:#52636e} .legend{font-size:18px;fill:#263742}</style>
+<text x="60" y="58" class="title">High correlation is not verification</text>
+<text x="60" y="94" class="sub">Synthetic independent CAN holdout • error against the time-aligned speed reference</text>
+<rect x="999" y="38" width="436" height="96" rx="8" fill="#e3f1ed" stroke="#b4d6cd"/>
+<text x="1018" y="70" style="font-size:18px;font-weight:700;fill:#11675f">PASS • r = 1.0000 • RMSE = 0.00 km/h</text>
+<text x="1018" y="105" class="label">30/30 values agree exactly in this fixture</text>
+<rect x="999" y="142" width="436" height="96" rx="8" fill="#fbefdd" stroke="#e8cda5"/>
+<text x="1018" y="174" style="font-size:18px;font-weight:700;fill:#9a5b13">UNCONFIRMED • r = 0.9836 • RMSE = 29.84</text>
+<text x="1018" y="209" class="label">Correlation alone would look deceptively strong</text>
+
+<path d="M105 740.00H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="745.00" text-anchor="end" class="label">-45</text>
+<path d="M105 652.50H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="657.50" text-anchor="end" class="label">-30</text>
+<path d="M105 565.00H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="570.00" text-anchor="end" class="label">-15</text>
+<path d="M105 477.50H1435" stroke="#82919a" fill="none"/>
+<text x="95" y="482.50" text-anchor="end" class="label">0</text>
+<path d="M105 390.00H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="395.00" text-anchor="end" class="label">15</text>
+<path d="M105 302.50H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="307.50" text-anchor="end" class="label">30</text>
+<path d="M105 215.00H1435" stroke="#dfe4e2" fill="none"/>
+<text x="95" y="220.00" text-anchor="end" class="label">45</text>
+<text x="105.00" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">1</text>
+<text x="150.86" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">2</text>
+<text x="196.72" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">3</text>
+<text x="242.59" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">4</text>
+<text x="288.45" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">5</text>
+<text x="334.31" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">6</text>
+<text x="380.17" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">7</text>
+<text x="426.03" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">8</text>
+<text x="471.90" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">9</text>
+<text x="517.76" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">10</text>
+<text x="563.62" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">11</text>
+<text x="609.48" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">12</text>
+<text x="655.34" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">13</text>
+<text x="701.21" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">14</text>
+<text x="747.07" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">15</text>
+<text x="792.93" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">16</text>
+<text x="838.79" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">17</text>
+<text x="884.66" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">18</text>
+<text x="930.52" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">19</text>
+<text x="976.38" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">20</text>
+<text x="1022.24" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">21</text>
+<text x="1068.10" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">22</text>
+<text x="1113.97" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">23</text>
+<text x="1159.83" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">24</text>
+<text x="1205.69" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">25</text>
+<text x="1251.55" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">26</text>
+<text x="1297.41" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">27</text>
+<text x="1343.28" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">28</text>
+<text x="1389.14" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">29</text>
+<text x="1435.00" y="762" text-anchor="middle" style="font-size:13px;fill:#52636e">30</text>
+<text x="35" y="477.5" text-anchor="middle" class="legend" transform="rotate(-90 35 477.5)">Decoded minus reference (km/h)</text>
+<text x="770" y="800" text-anchor="middle" class="legend">Holdout sample (chronological)</text>
+<path d="M66 158H96" stroke="#147d73" stroke-width="3"/><circle cx="81" cy="158" r="4" fill="#147d73"/><text x="106" y="164" class="legend">Accepted speed decoder</text>
+<path d="M360 158H390" stroke="#d18a2e" stroke-width="3"/><rect x="378" y="152" width="12" height="12" transform="rotate(45 384 158)" fill="#d18a2e"/><text x="400" y="164" class="legend">Plausible wrong bit field</text>
+<path d="M650 158H680" stroke="#b5544c" stroke-width="2" stroke-dasharray="8,4"/><text x="690" y="164" class="legend">Maximum-error gate ±0.75 km/h</text>
+<path d="M105 481.88H1435" stroke="#b5544c" stroke-width="2" stroke-dasharray="8,4"/>
+<text x="1428" y="499.00" text-anchor="end" style="font-size:14px;fill:#93443e">-0.75 gate</text>
+<path d="M105 473.12H1435" stroke="#b5544c" stroke-width="2" stroke-dasharray="8,4"/>
+<text x="1428" y="466.12" text-anchor="end" style="font-size:14px;fill:#93443e">+0.75 gate</text>
+<polyline points="105.00,477.50 150.86,477.50 196.72,477.50 242.59,477.50 288.45,477.50 334.31,477.50 380.17,477.50 426.03,477.50 471.90,477.50 517.76,477.50 563.62,477.50 609.48,477.50 655.34,477.50 701.21,477.50 747.07,477.50 792.93,477.50 838.79,477.50 884.66,477.50 930.52,477.50 976.38,477.50 1022.24,477.50 1068.10,477.50 1113.97,477.50 1159.83,477.50 1205.69,477.50 1251.55,477.50 1297.41,477.50 1343.28,477.50 1389.14,477.50 1435.00,477.50" fill="none" stroke="#147d73" stroke-width="4"/>
+<polyline points="105.00,290.83 150.86,290.83 196.72,296.67 242.59,270.42 288.45,244.17 334.31,261.67 380.17,279.17 426.03,320.00 471.90,360.83 517.76,401.67 563.62,419.17 609.48,401.67 655.34,360.83 701.21,320.00 747.07,279.17 792.93,261.67 838.79,244.17 884.66,255.83 930.52,290.83 976.38,261.67 1022.24,255.83 1068.10,273.33 1113.97,314.17 1159.83,355.00 1205.69,395.83 1251.55,413.33 1297.41,395.83 1343.28,314.17 1389.14,255.83 1435.00,290.83" fill="none" stroke="#d18a2e" stroke-width="4"/>
+<circle cx="105.00" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="150.86" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="196.72" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="242.59" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="288.45" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="334.31" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="380.17" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="426.03" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="471.90" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="517.76" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="563.62" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="609.48" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="655.34" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="701.21" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="747.07" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="792.93" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="838.79" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="884.66" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="930.52" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="976.38" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1022.24" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1068.10" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1113.97" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1159.83" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1205.69" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1251.55" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1297.41" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1343.28" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1389.14" cy="477.50" r="4" fill="#147d73"/>
+<circle cx="1435.00" cy="477.50" r="4" fill="#147d73"/>
+<rect x="101.00" y="286.83" width="8" height="8" transform="rotate(45 105.00 290.83)" fill="#d18a2e"/>
+<rect x="146.86" y="286.83" width="8" height="8" transform="rotate(45 150.86 290.83)" fill="#d18a2e"/>
+<rect x="192.72" y="292.67" width="8" height="8" transform="rotate(45 196.72 296.67)" fill="#d18a2e"/>
+<rect x="238.59" y="266.42" width="8" height="8" transform="rotate(45 242.59 270.42)" fill="#d18a2e"/>
+<rect x="284.45" y="240.17" width="8" height="8" transform="rotate(45 288.45 244.17)" fill="#d18a2e"/>
+<rect x="330.31" y="257.67" width="8" height="8" transform="rotate(45 334.31 261.67)" fill="#d18a2e"/>
+<rect x="376.17" y="275.17" width="8" height="8" transform="rotate(45 380.17 279.17)" fill="#d18a2e"/>
+<rect x="422.03" y="316.00" width="8" height="8" transform="rotate(45 426.03 320.00)" fill="#d18a2e"/>
+<rect x="467.90" y="356.83" width="8" height="8" transform="rotate(45 471.90 360.83)" fill="#d18a2e"/>
+<rect x="513.76" y="397.67" width="8" height="8" transform="rotate(45 517.76 401.67)" fill="#d18a2e"/>
+<rect x="559.62" y="415.17" width="8" height="8" transform="rotate(45 563.62 419.17)" fill="#d18a2e"/>
+<rect x="605.48" y="397.67" width="8" height="8" transform="rotate(45 609.48 401.67)" fill="#d18a2e"/>
+<rect x="651.34" y="356.83" width="8" height="8" transform="rotate(45 655.34 360.83)" fill="#d18a2e"/>
+<rect x="697.21" y="316.00" width="8" height="8" transform="rotate(45 701.21 320.00)" fill="#d18a2e"/>
+<rect x="743.07" y="275.17" width="8" height="8" transform="rotate(45 747.07 279.17)" fill="#d18a2e"/>
+<rect x="788.93" y="257.67" width="8" height="8" transform="rotate(45 792.93 261.67)" fill="#d18a2e"/>
+<rect x="834.79" y="240.17" width="8" height="8" transform="rotate(45 838.79 244.17)" fill="#d18a2e"/>
+<rect x="880.66" y="251.83" width="8" height="8" transform="rotate(45 884.66 255.83)" fill="#d18a2e"/>
+<rect x="926.52" y="286.83" width="8" height="8" transform="rotate(45 930.52 290.83)" fill="#d18a2e"/>
+<rect x="972.38" y="257.67" width="8" height="8" transform="rotate(45 976.38 261.67)" fill="#d18a2e"/>
+<rect x="1018.24" y="251.83" width="8" height="8" transform="rotate(45 1022.24 255.83)" fill="#d18a2e"/>
+<rect x="1064.10" y="269.33" width="8" height="8" transform="rotate(45 1068.10 273.33)" fill="#d18a2e"/>
+<rect x="1109.97" y="310.17" width="8" height="8" transform="rotate(45 1113.97 314.17)" fill="#d18a2e"/>
+<rect x="1155.83" y="351.00" width="8" height="8" transform="rotate(45 1159.83 355.00)" fill="#d18a2e"/>
+<rect x="1201.69" y="391.83" width="8" height="8" transform="rotate(45 1205.69 395.83)" fill="#d18a2e"/>
+<rect x="1247.55" y="409.33" width="8" height="8" transform="rotate(45 1251.55 413.33)" fill="#d18a2e"/>
+<rect x="1293.41" y="391.83" width="8" height="8" transform="rotate(45 1297.41 395.83)" fill="#d18a2e"/>
+<rect x="1339.28" y="310.17" width="8" height="8" transform="rotate(45 1343.28 314.17)" fill="#d18a2e"/>
+<rect x="1385.14" y="251.83" width="8" height="8" transform="rotate(45 1389.14 255.83)" fill="#d18a2e"/>
+<rect x="1431.00" y="286.83" width="8" height="8" transform="rotate(45 1435.00 290.83)" fill="#d18a2e"/>
+<text x="60" y="832" class="label">All data are simulated test fixtures, not real-vehicle observations. The rejected output retains raw CAN bytes only.</text>
+</svg>

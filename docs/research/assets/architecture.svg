@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Caretaker: acquisition is not interpretation</title>
+  <desc id="desc">Sources feed adapters, immutable raw evidence, candidate meanings and verified history. Repair cases and people use the history; physical action remains a separate consented step.</desc>
+  <defs>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#218b82"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2f7f9f"/></marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c98332"/></marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b55454"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="800" y="48" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle"><tspan x="800" dy="0">Caretaker: acquisition is not interpretation</tspan></text>
+  <text x="800" y="84" fill="#415660" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle"><tspan x="800" dy="0">One evidence history; hardware-specific code remains behind adapters</tspan></text>
+  <text x="58" y="148" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="start"><tspan x="58" dy="0">Retained at every boundary:</tspan></text>
+  <text x="58" y="181" fill="#415660" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="400" text-anchor="start"><tspan x="58" dy="0">timestamp • source • raw value • units • operating context • revision • uncertainty • simulated/real</tspan></text>
+  <rect x="38" y="230" width="290" height="210" rx="20" fill="#f5f7f8" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="183.0" y="305" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="183.0" dy="0">SOURCES</tspan></text>
+  <text x="183.0" y="346" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="183.0" dy="0">K-line / SCI serial</tspan><tspan x="183.0" dy="27">CAN / NMEA 2000 / J1939</tspan><tspan x="183.0" dy="27">Camera / gauge / sensors</tspan></text>
+  <rect x="345" y="230" width="290" height="210" rx="20" fill="#f5f7f8" stroke="#218b82" stroke-width="2.5"/>
+  <text x="490.0" y="305" fill="#218b82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="490.0" dy="0">ADAPTERS</tspan></text>
+  <text x="490.0" y="346" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="490.0" dy="0">Existing Python, C, Rust</tspan><tspan x="490.0" dy="27">read-only first</tspan><tspan x="490.0" dy="27">raw bytes + clock + source</tspan></text>
+  <rect x="652" y="230" width="290" height="210" rx="20" fill="#f5f7f8" stroke="#19384a" stroke-width="2.5"/>
+  <text x="797.0" y="305" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="797.0" dy="0">RAW EVIDENCE</tspan></text>
+  <text x="797.0" y="346" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="797.0" dy="0">Immutable captures</tspan><tspan x="797.0" dy="27">machine / revision scope</tspan><tspan x="797.0" dy="27">failures and partial runs</tspan></text>
+  <rect x="959" y="230" width="290" height="210" rx="20" fill="#f5f7f8" stroke="#c98332" stroke-width="2.5"/>
+  <text x="1104.0" y="305" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1104.0" dy="0">CANDIDATE MEANING</tspan></text>
+  <text x="1104.0" y="346" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="1104.0" dy="0">DBC / KW1281 map</tspan><tspan x="1104.0" dy="27">OCR / labels / fit</tspan><tspan x="1104.0" dy="27">scale, units, bias, lag</tspan></text>
+  <rect x="1266" y="230" width="290" height="210" rx="20" fill="#f5f7f8" stroke="#218b82" stroke-width="2.5"/>
+  <text x="1411.0" y="305" fill="#218b82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" text-anchor="middle"><tspan x="1411.0" dy="0">VERIFIED HISTORY</tspan></text>
+  <text x="1411.0" y="346" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="1411.0" dy="0">Calibration / holdout</tspan><tspan x="1411.0" dy="27">PASS / UNCONFIRMED</tspan><tspan x="1411.0" dy="27">Caretaker JSONL + tests</tspan></text>
+  <path d="M 328 335 L 333 335" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 635 335 L 640 335" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 942 335 L 947 335" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 1249 335 L 1254 335" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <rect x="275" y="575" width="465" height="190" rx="20" fill="#f5f7f8" stroke="#19384a" stroke-width="2.5"/>
+  <text x="507.5" y="650" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle"><tspan x="507.5" dy="0">REPAIR CASE</tspan></text>
+  <text x="507.5" y="691" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="507.5" dy="0">Symptom + conditions</tspan><tspan x="507.5" dy="27">attempted checks + intervention</tspan><tspan x="507.5" dy="27">before/after + independent verifier</tspan></text>
+  <rect x="875" y="575" width="465" height="190" rx="20" fill="#f5f7f8" stroke="#19384a" stroke-width="2.5"/>
+  <text x="1107.5" y="650" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="22" font-weight="700" text-anchor="middle"><tspan x="1107.5" dy="0">PEOPLE &amp; AGENTS</tspan></text>
+  <text x="1107.5" y="691" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="400" text-anchor="middle"><tspan x="1107.5" dy="0">Local Caretaker proposes</tspan><tspan x="1107.5" dy="27">specialists retrieve evidence</tspan><tspan x="1107.5" dy="27">owner / repairer authorize action</tspan></text>
+  <path d="M 1405 430 L 1185 570" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 875 672 L 752 672" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 875 682 L 505 585" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <rect x="465" y="825" width="670" height="125" rx="18" fill="#fff8f6" stroke="#b55454" stroke-width="2.5"/>
+  <text x="800.0" y="900" fill="#b55454" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="800.0" dy="0">PHYSICAL ACTION IS A SEPARATE, CONSENTED STEP</tspan></text>
+  <text x="800.0" y="941" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="17" font-weight="400" text-anchor="middle"><tspan x="800.0" dy="0">No agent consensus, decoder fit, or missing value authorizes actuation.</tspan></text>
+  <path d="M 1100 750 L 920 825" fill="none" stroke="#b55454" stroke-width="2.5" marker-end="url(#arrow-red)"/>
+</svg>

@@ -62,6 +62,7 @@ The T4 is only the beginning. Do you have a bicycle, boat, motorbike, mixer, fri
 
 - [Connect a 1996 VW T4 2.5 TDI](machines/vw-t4-acv/README.md) with a Raspberry Pi or Linux laptop. Includes the wiring schematic, parts and diagnostic logger.
 - [Run the first observation log](tools/README.md) on your own computer.
+- [Replay synthetic CAN and T4 evidence](tools/replay/README.md) with the offline Rust prototype; no hardware connection is required.
 - Explore sensor ideas for a [1970s tractor](machines/tractors/1970s-tractor.md) and [JCB-type plant equipment](machines/plant/jcb-backhoe-concept.md).
 - Propose a sensor, machine interface or data importer using the [sensor guide](docs/sensors-and-adapters.md) and [adapter contract](docs/adapter-contract.md).
 
@@ -72,6 +73,7 @@ These first profiles are starting hypotheses; contribute measurements and result
 - [Concept film: script and notes](docs/concept-film.md)
 - [Use cases and commercial angles](docs/use-cases-and-commercial-angles.md)
 - [Product hypothesis](docs/product-hypothesis.md)
+- [Evidence-led repair architecture and cross-domain research](docs/research/right-to-repair-architecture.md)
 - [Roadmap and gates](docs/roadmap.md)
 - [First T4 experiment](experiments/001-t4-caretaker.md)
 - [Machine record template](examples/machine-record.md)

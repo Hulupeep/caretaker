@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="840" viewBox="0 0 1500 840" role="img" aria-labelledby="title desc">
+  <title id="title">From one repair to reusable knowledge</title>
+  <desc id="desc">Six stages take a repair from owner-consented intake through proposal, challenge, independent review and merge to reusable repair knowledge. Disagreement remains conflicted until resolved by evidence.</desc>
+  <defs>
+    <marker id="arrow-teal" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#218b82"/></marker>
+    <marker id="arrow-blue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#2f7f9f"/></marker>
+    <marker id="arrow-orange" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#c98332"/></marker>
+    <marker id="arrow-red" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#b55454"/></marker>
+  </defs>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <text x="750" y="52" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle"><tspan x="750" dy="0">From one repair to reusable knowledge</tspan></text>
+  <text x="750" y="87" fill="#415660" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="400" text-anchor="middle"><tspan x="750" dy="0">Evidence accrues state; agent votes do not</tspan></text>
+  <rect x="50" y="170" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#19384a" stroke-width="2.5"/>
+  <text x="267.5" y="245" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="267.5" dy="0">1  INTAKE</tspan></text>
+  <text x="267.5" y="286" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="267.5" dy="0">Owner consent</tspan><tspan x="267.5" dy="27">manual / capture licence</tspan><tspan x="267.5" dy="27">exact machine identity</tspan></text>
+  <rect x="525" y="170" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#2f7f9f" stroke-width="2.5"/>
+  <text x="742.5" y="245" fill="#2f7f9f" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="742.5" dy="0">2  PROPOSE</tspan></text>
+  <text x="742.5" y="286" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="742.5" dy="0">Raw artifact + adapter</tspan><tspan x="742.5" dy="27">candidate decoder</tspan><tspan x="742.5" dy="27">known unknowns</tspan></text>
+  <rect x="1000" y="170" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#c98332" stroke-width="2.5"/>
+  <text x="1217.5" y="245" fill="#c98332" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="1217.5" dy="0">3  CHALLENGE</tspan></text>
+  <text x="1217.5" y="286" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="1217.5" dy="0">Negative variant</tspan><tspan x="1217.5" dy="27">calibration / holdout</tspan><tspan x="1217.5" dy="27">failed attempt retained</tspan></text>
+  <rect x="1000" y="460" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#b55454" stroke-width="2.5"/>
+  <text x="1217.5" y="535" fill="#b55454" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="1217.5" dy="0">4  INDEPENDENT REVIEW</tspan></text>
+  <text x="1217.5" y="576" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="1217.5" dy="0">Replay from source</tspan><tspan x="1217.5" dy="27">check units and scope</tspan><tspan x="1217.5" dy="27">new physical reference</tspan></text>
+  <rect x="525" y="460" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#218b82" stroke-width="2.5"/>
+  <text x="742.5" y="535" fill="#218b82" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="742.5" dy="0">5  MERGE</tspan></text>
+  <text x="742.5" y="576" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="742.5" dy="0">Reviewed profile</tspan><tspan x="742.5" dy="27">repeatable test</tspan><tspan x="742.5" dy="27">versioned decoder</tspan></text>
+  <rect x="50" y="460" width="435" height="200" rx="20" fill="#f5f7f8" stroke="#19384a" stroke-width="2.5"/>
+  <text x="267.5" y="535" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" text-anchor="middle"><tspan x="267.5" dy="0">6  LEARN</tspan></text>
+  <text x="267.5" y="576" fill="#19384a" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" font-weight="400" text-anchor="middle"><tspan x="267.5" dy="0">Repair case + outcome</tspan><tspan x="267.5" dy="27">next discriminating check</tspan><tspan x="267.5" dy="27">portable ORA summary</tspan></text>
+  <path d="M 485 270 L 513 270" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 960 270 L 988 270" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 1218 370 L 1218 448" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 1000 560 L 972 560" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 525 560 L 497 560" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <path d="M 268 460 L 268 382" fill="none" stroke="#218b82" stroke-width="2.5" marker-end="url(#arrow-teal)"/>
+  <text x="750" y="765" fill="#b55454" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19" font-weight="700" text-anchor="middle"><tspan x="750" dy="0">Disagreement -> replay raw evidence -> check revision / units / clock -> obtain discriminating measurement -> mark CONFLICTED until resolved</tspan></text>
+</svg>

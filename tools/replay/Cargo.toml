@@ -1,0 +1,8 @@
+[package]
+name = "caretaker-replay"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Offline capture replay and verified observation emission for Caretaker"
+
+[dependencies]
